@@ -184,7 +184,7 @@ function sortNodesByDistance(unvisitedNodes: NodeType[]): void {
   unvisitedNodes.sort((nodeA, nodeB) => nodeA.distance - nodeB.distance)
 }
 
-function updateUnvisitedNeighbors(node: NodeType, grid: NodeType[]): void {
+function updateUnvisitedNeighbors(node: NodeType, grid: NodeType[][]): void {
   const unvisitedNeighbors = getNeighbors(grid, node)
   for (const neighbor of unvisitedNeighbors) {
     neighbor.distance = node.distance + 1

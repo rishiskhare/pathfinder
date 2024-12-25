@@ -139,7 +139,7 @@ export default function Pathfinder() {
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="astar">A* Algorithm</SelectItem>
-            <SelectItem value="dijkstra">Dijkstra's Algorithm</SelectItem>
+            <SelectItem value="dijkstra">Dijkstra&apos;s Algorithm</SelectItem>
             <SelectItem value="bfs">Breadth-First Search</SelectItem>
             <SelectItem value="dfs">Depth-First Search</SelectItem>
           </SelectContent>
